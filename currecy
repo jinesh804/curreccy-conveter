@@ -1,0 +1,334 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int num, n, exit, acc, pass, transfer;
+    float total;
+    char ch[20];
+    string bank;
+    system("cls");
+
+    cout << "  Hello \n\n  Choose any popular currency type from given below to convert into indian rupees" << endl;
+
+    cout << "\n  1) Euro = 81.6\n  2) Pound sterling =92.75\n  3) Canadian dollar=60.38\n  4) Swiss franc=82.73\n  5) Japanese yen=1.80\n  6) US dollar=81.27\n  7) Australian dollar=52.46\n  8) Chinese yuan=11.22\n  9) New Zealand dollar=47.98\n 10) Hong kong dollar=10.35\n 11) South African rand=4.58\n 12) Colombian peso=60.29 " << endl;
+    ;
+    cout << endl
+         << " _________________________ " << endl;
+    system("pause");
+    system("cls");
+
+    while (exit != 1) 
+    {
+        cout << endl
+             << endl
+             << "***************************" << endl
+             << endl;
+        cout << " Enter the number of currency type you want to convert : ";
+        cin >> num;
+
+        cout << " Enter the name of currency type you want to convert : ";
+        cin >> ch;
+        cout << "|**************************|" << endl;
+        system("cls");
+
+        cout << "  You choose " << ch << " Currency Type " << endl;
+        cout << " Enter how many " << ch << " you convert into rupees: " << endl;
+        cin >> n;
+
+        switch (num)
+        {
+        case 1:
+            total = n * 81.6;
+            cout << n << ch << " = " << total << "indian rupees" << endl;
+            cout << "you want to transfer money to indian bank yes 1 no 2  " << endl;
+            cin >> transfer;
+            if (transfer == 1)
+            {
+                cout << "bank indian bank name " << endl;
+                cin >> bank;
+                cout << "enter bank account no" << endl;
+                cin >> acc;
+                cout << "enter your password" << endl;
+                cin >> pass;
+                cout << "your money is transferd to ::" << endl
+                     << "bank::" << bank << endl
+                     << "account no::" << acc << endl
+                     << "amount" << (5 * total) / 100 << endl;
+            }
+            if (transfer == 2)
+                ;
+            {
+                break;
+            }
+
+            break;
+        case 2:
+            total = n * 92.75;
+
+            cout << n << ch << " = " << total << "indian rupees" << endl;
+            cout << "you want to transfer money to indian bank  " << endl;
+            cin >> transfer;
+            if (transfer == 1)
+            {
+                cout << "bank indian bank name " << endl;
+                cin >> bank;
+                cout << "enter bank account no" << endl;
+                cin >> acc;
+                cout << "enter your password" << endl;
+                cin >> pass;
+                cout << "your money is transferd to ::" << endl
+                     << "bank::" << bank << endl
+                     << "account no::" << acc << endl
+                     << "amount" << (5 * total) / 100 << endl;
+            }
+            if (transfer == 2)
+                ;
+            {
+                break;
+            }
+            break;
+
+        case 3:
+            total = n * 60.38;
+            cout << n << ch << " = " << total << "indian rupees" << endl;
+            cout << "you want to transfer money to indian bank  " << endl;
+            cin >> transfer;
+            if (transfer == 1)
+            {
+                cout << "bank indian bank name " << endl;
+                cin >> bank;
+                cout << "enter bank account no" << endl;
+                cin >> acc;
+                cout << "enter your password" << endl;
+                cin >> pass;
+                cout << "your money is transferd to ::" << endl
+                     << "bank::" << bank << endl
+                     << "account no::" << acc << endl
+                     << "amount" << (5 * total) / 100 << endl;
+            }
+            if (transfer == 2)
+                ;
+            {
+                break;
+            }
+            break;
+
+        case 4:
+            total = n * 82.73;
+            cout << n << ch << " = " << total << "indian rupees" << endl;
+            cout << "you want to transfer money to indian bank  " << endl;
+            cin >> transfer;
+            if (transfer == 1)
+            {
+                cout << "bank indian bank name " << endl;
+                cin >> bank;
+                cout << "enter bank account no" << endl;
+                cin >> acc;
+                cout << "enter your password" << endl;
+                cin >> pass;
+                cout << "your money is transferd to ::" << endl
+                     << "bank::" << bank << endl
+                     << "account no::" << acc << endl
+                     << "amount" << (5 * total) / 100 << endl;
+            }
+            if (transfer == 2)
+                ;
+            {
+                break;
+            }
+            break;
+
+        case 5:
+            total = n * 1.80;
+            cout << n << ch << " = " << total << "indian rupees" << endl;
+            cout << "you want to transfer money to indian bank  " << endl;
+            cin >> transfer;
+            if (transfer == 1)
+            {
+                cout << "bank indian bank name " << endl;
+                cin >> bank;
+                cout << "enter bank account no" << endl;
+                cin >> acc;
+                cout << "enter your password" << endl;
+                cin >> pass;
+                cout << "your money is transferd to ::" << endl
+                     << "bank::" << bank << endl
+                     << "account no::" << acc << endl
+                     << "amount" << (5 * total) / 100 << endl;
+            }
+            if (transfer == 2)
+                ;
+            {
+                break;
+            }
+            break;
+
+        case 6:
+            total = n * 81.27;
+            cout << n << ch << " = " << total << "indian rupees" << endl;
+            cout << "you want to transfer money to indian bank  " << endl;
+            cin >> transfer;
+            if (transfer == 1)
+            {
+                cout << "bank indian bank name " << endl;
+                cin >> bank;
+                cout << "enter bank account no" << endl;
+                cin >> acc;
+                cout << "enter your password" << endl;
+                cin >> pass;
+                cout << "your money is transferd to ::" << endl
+                     << "bank::" << bank << endl
+                     << "account no::" << acc << endl
+                     << "amount" << (5 * total) / 100 << endl;
+            }
+            if (transfer == 2)
+                ;
+            {
+                break;
+            }
+            break;
+
+        case 7:
+            total = n * 52.46;
+            cout << n << ch << " = " << total << "indian rupees" << endl;
+            cout << "you want to transfer money to indian bank  " << endl;
+            cin >> transfer;
+            if (transfer == 1)
+            {
+                cout << "bank indian bank name " << endl;
+                cin >> bank;
+                cout << "enter bank account no" << endl;
+                cin >> acc;
+                cout << "enter your password" << endl;
+                cin >> pass;
+                cout << "your money is transferd to ::" << endl
+                     << "bank::" << bank << endl
+                     << "account no::" << acc << endl
+                     << "amount" << (5 * total) / 100 << endl;
+            }
+            if (transfer == 2)
+                ;
+            {
+                break;
+            }
+            break;
+
+        case 8:
+            total = n * 11.22;
+            cout << n << ch << " = " << total << "indian rupees" << endl;
+            cout << "you want to transfer money to indian bank  " << endl;
+            cin >> transfer;
+            if (transfer == 1)
+            {
+                cout << "bank indian bank name " << endl;
+                cin >> bank;
+                cout << "enter bank account no" << endl;
+                cin >> acc;
+                cout << "enter your password" << endl;
+                cin >> pass;
+                cout << "your money is transferd to ::" << endl
+                     << "bank::" << bank << endl
+                     << "account no::" << acc << endl
+                     << "amount" << (5 * total) / 100 << endl;
+            }
+            if (transfer == 2)
+                
+            {
+                break;
+            }
+            break;
+
+        case 9:
+            total = n * 47.98;
+            cout << n << ch << " = " << total << "indian rupees" << endl;
+            cout << "you want to transfer money to indian bank  " << endl;
+            cin >> transfer;
+            if (transfer == 1)
+            {
+                cout << "bank indian bank name " << endl;
+                cin >> bank;
+                cout << "enter bank account no" << endl;
+                cin >> acc;
+                cout << "enter your password" << endl;
+                cin >> pass;
+                cout << "your money is transferd to ::" << endl
+                     << "bank::" << bank << endl
+                     << "account no::" << acc << endl
+                     << "amount" << (5 * total) / 100 << endl;
+            }
+            if (transfer == 2)
+                
+            {
+                break;
+            }
+            break;
+
+        case 10:
+            total = n * 10.35;
+            cout << n << ch << " = " << total << "indian rupees" << endl;
+            cout << "you want to transfer money to indian bank  " << endl;
+            cin >> transfer;
+            if (transfer == 1)
+            {
+                cout << "bank indian bank name " << endl;
+                cin >> bank;
+                cout << "enter bank account no" << endl;
+                cin >> acc;
+                cout << "enter your password" << endl;
+                cin >> pass;
+                cout << "your money is transferd to ::" << endl
+                     << "bank::" << bank << endl
+                     << "account no::" << acc << endl
+                     << "amount" << (5 * total) / 100 << endl;
+            }
+            if (transfer == 2)
+                ;
+            {
+                break;
+            }
+            break;
+
+        case 11:
+            total = n * 4.58;
+            cout << n << ch << " = " << total << "indian rupees" << endl;
+            cout << "you want to transfer money to indian bank  " << endl;
+            cin >> transfer;
+            if (transfer == 1)
+            {
+                cout << "bank indian bank name " << endl;
+                cin >> bank;
+                cout << "enter bank account no" << endl;
+                cin >> acc;
+                cout << "enter your password" << endl;
+                cin >> pass;
+                cout << "your money is transferd to ::" << endl
+                     << "bank::" << bank << endl
+                     << "account no::" << acc << endl
+                     << "amount" << (5 * total) / 100 << endl;
+            }
+            if (transfer == 2)
+                ;
+            {
+                break;
+            }
+            break;
+
+        case 12:
+            total = n * 60.29;
+            cout << n << ch << " = " << total << "indian rupees" << endl;
+            break;
+
+        default:
+            cout << "\n\nplease check your above entering information are correct .....\n \n"
+                 << endl;
+            break;
+        }
+        cout << "\n__________________________\n\n"; // gfghh
+
+        printf("\n\n\t if you want to exit press (yes=1/no=2): ");
+        scanf("%d", &exit);
+    }
+    printf("\n\n                       Thank you for visiting.          \n\n\n                        www.currency converter.com\n");
+    return 0;
+}
